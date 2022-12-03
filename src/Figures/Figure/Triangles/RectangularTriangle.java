@@ -20,7 +20,7 @@ public class RectangularTriangle {
     }
   }
   public void setCorners(int a, int b, int c){
-    if (a != 90 || b != 90 || c != 90){
+    if (a != 90 && b != 90 && c != 90){
       System.out.println("It's not rectangular triangle");
     } else if ( (a + b + c) != 180) {
       System.out.println("Wrong corners");

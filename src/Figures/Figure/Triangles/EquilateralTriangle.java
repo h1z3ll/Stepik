@@ -7,7 +7,7 @@ public class EquilateralTriangle {
   protected String name;
   public EquilateralTriangle(){};
   public void setSides(int a, int b, int c){
-    if (a != b && a!= b || b != a && b != c || c != a && c != b ){
+    if (a != b && a!= b && b != a && b != c && c != a && c != b ){
       System.out.println("It's not equilateral triangle");
     } else if( ( a < b + c ) && ( b < a + c ) && ( c < a + b ) ){
       this.a = a;

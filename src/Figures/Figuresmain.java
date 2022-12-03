@@ -82,15 +82,16 @@ public class Figuresmain {
     System.out.println(dt1.getPerimeter());
 
     EquilateralTriangle et1 = new EquilateralTriangle();
-    et1.setSides(5, 5, 5);
+    et1.setSides(10, 10, 5);
     System.out.println(et1.getPerimeter());
+
     IsosceleTtriangle it1 = new IsosceleTtriangle();
-    it1.setSides(10, 10, 5);
+    it1.setSides(10, 10, 10);
     System.out.println(it1.getPerimeter());
 
     RectangularTriangle rt1 = new RectangularTriangle();
     rt1.setSides(5, 12 , 13);
-    rt1.setCorners(34, 90, 46);
+    rt1.setCorners(34, 90, 56);
     System.out.println(rt1.getPerimeter());
   }
 }
