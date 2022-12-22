@@ -24,7 +24,6 @@ public class DefaultTriangle {
       System.out.println("Wrong corners");
     } else {
       this.cornerA = cornerA;
-      this.cornerB = cornerB;
       this.cornerC = cornerC;
     }
   }
